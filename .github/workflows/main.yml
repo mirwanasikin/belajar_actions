@@ -3,6 +3,10 @@ name: Learn Github Actions
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   learn_github:
     runs-on: ubuntu-latest
