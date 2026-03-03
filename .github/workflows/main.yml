@@ -13,3 +13,9 @@ jobs:
 
       - name: Say Hello
         run: echo Hello World
+
+      - name: Check isi 
+        run: ls -lah
+
+      - name: Baca file1
+        run: cat file1
