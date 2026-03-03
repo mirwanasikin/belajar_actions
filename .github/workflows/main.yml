@@ -22,3 +22,6 @@ jobs:
 
       - name: Bikin file hantu 
         run: echo "Temporary" > temp.txt
+
+      - name: second check 
+        run: ls -lah
