@@ -19,3 +19,6 @@ jobs:
 
       - name: Baca file1
         run: cat file1
+
+      - name: Bikin file hantu 
+        run: echo "Temporary" > temp.txt
